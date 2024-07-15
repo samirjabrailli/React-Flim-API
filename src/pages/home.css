@@ -1,0 +1,39 @@
+.film{
+    color: gold;
+    text-align: center;
+    font-size: 45px;
+}
+
+.move{
+    text-align: center;
+}
+
+.move input{
+    outline: none;
+    padding: 10px;
+    width: 400px;
+}
+
+.list {
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.list .searchFilmContainer {
+    width: 100%;
+    padding: 10px 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.searchFilmContainer img {
+    width: 60px;
+    height: 60px;
+}
